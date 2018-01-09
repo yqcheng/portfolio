@@ -4,20 +4,26 @@
   <title>portfolio</title>
   <link href = "./resources/css/reset.css" type="text/css" rel="stylesheet">
   <link href ="./resources/css/style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 </head>
 
 <body>
   <div class = "header">
-    <div class = "logo">
-      <img src = "./resources/images/logo.jpg" alt="logo" class="logo">
+    <div class = "container">
+      <div class = "logo">
+        <img src = "./resources/images/logo.jpg" alt="logo" class="logo">
+      </div>
+      <div class = "navigation">
+        <nav>
+          <ul>
+            <span><a href="#works" class="nav">Works</a></span>
+            <span><a href="#about" class="nav">About</a></span>
+            <span><a href="#resume" class="nav">Resume</a></span>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <nav>
-      <ul>
-        <span><a href="#works" class="nav">Works</a></span>
-        <span><a href="#about" class="nav">About</a></span>
-        <span><a href="#resume" class="nav">Resume</a></span>
-      </ul>
-    </nav>
   </div>
 
   <main>
@@ -27,14 +33,15 @@
       </div>
 
       <div class = "bio-text">
-        <h1>Hi! I am Qicheng!
-        <p>I dream to create products that bring users a smooth and optimal
-          experience and light up their faces with happiness.</p>
-        <p>My love for UX & HCI & people & languages will go on and on.</p>
+        <h1>Hi! I am Qicheng!</h1>
+        <p>I dream to create products that bring users a <a>smooth</a> and optimal
+          experience and light up their faces with <a>happiness</a>.</p>
+        <p>My love for UX & HCI & <a>people</a> & languages will go on and on.</p>
       </div>
     </div>
 
     <div class = "works container" id = "works">
+      <h1>Featured Projects</h1>
       <div class = "top roll">
         <img src = "resources/images/hoverboard.jpg" alt = "hoverboard">
         <img src = "resources/images/vol.jpg" alt = "cosi-vol">
@@ -47,6 +54,7 @@
     </div>
 
     <div class = "related-work container">
+      <h1>Other Works:</h1>
       <p><a href ="#" class = "related">Product Evaluation  |  Alpha Ubtech: A Wasteful Beauty</a></p>
       <p><a href ="#" class = "related">Product Evaluation  |  Go Pro: A Treat For Life Exploration</p>
       <p><a href ="#" class = "related">Sketch  |  PSP animation</p>
@@ -54,8 +62,9 @@
     </div>
   </main>
 
-  <footer>
-  </footer>
+  <div class ="footer container">
+    <p>copyright &copy 2018 Qicheng Yang</p>
+  </div>
 
 
 </body>
