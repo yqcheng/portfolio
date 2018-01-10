@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  font-family: 'Righteous', sans-serif;
+
 }
 
 .container {
@@ -46,6 +46,11 @@ nav ul a{
   margin: 0 1.5rem;
   font-size: 1.4rem;
   color: grey;
+}
+
+.navigation {
+  
+  margin-top:0.3rem;
 }
 
 
@@ -87,6 +92,8 @@ main {
 .bio-text h1 {
   font-size: 3.5rem;
   margin-bottom: 1.5rem;
+  font-family: 'Righteous', sans-serif;
+  color: #636263;
 }
 
 p {
@@ -116,6 +123,8 @@ p {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  font-weight: 400;
+
 
 }
 
