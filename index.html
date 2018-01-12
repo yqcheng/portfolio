@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112395144-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112395144-1');
+  </script>
+
   <title>portfolio</title>
   <link href = "./resources/css/reset.css" type="text/css" rel="stylesheet">
   <link href ="./resources/css/style.css" type="text/css" rel="stylesheet">
@@ -28,6 +38,7 @@
   </div>
 
   <main>
+    <!--**************************** bio **************************-->
     <div class = "bio container">
       <div class = "bio-pic">
         <img src = "resources/images/me.png" alt = "bio-pic">
@@ -41,19 +52,74 @@
       </div>
     </div>
 
+
+    <!--**************************** works **************************-->
     <div class = "works container" id = "works">
       <h1>Featured Projects</h1>
       <div class = "top roll">
-        <img src = "resources/images/hoverboard.jpg" alt = "hoverboard">
-        <img src = "resources/images/vol.jpg" alt = "cosi-vol">
+        <!--- work1: hoverboard --->
+        <div class ="hover" id = "hoverboard">
+          <div class = "box" id ="work-hoverboard">
+            <div class = "work-descr" >
+              <h1>Hoverboard Redesign</h1>
+              <p>We evaluated the Hoverboard and used low-fidelity prototypes
+                to improve its safety and feedback.</p>
+              <h2>HCI Course Project</h2>
+            </div>
+
+          </div>
+        </div>
+
+        <!--- work2: cosi vol team page --->
+        <div class ="hover" id = "voloffice">
+          <div class = "box" id = "work-vol">
+            <div class = "work-descr" >
+              <h1>COSI: Volunteer Webpage</h1>
+              <p>I evaluated and redesigned COSI's website for providing users
+                with easier access</p>
+              <h2>Website Redesign<h2>
+            </div>
+          </div>
+        </div>
       </div>
 
+      <div class = "bottom roll">
+        <!--- work3: user research --->
+        <div class ="hover" id = "techstudio">
+          <div class = "box" id ="work-ts">
+            <div class = "work-descr" >
+              <h1>COSI: Tech Studio Website</h1>
+              <p>WI helped two departments in COSI develop websites to attract
+                 more funding</p>
+              <h2>Website Development</h2>
+            </div>
+
+          </div>
+        </div>
+
+        <!--- work4: Wechat study --->
+        <div class ="hover" id = "research">
+          <div class = "box" id = "work-research">
+            <div class = "work-descr" >
+              <h1>Wechat Study</h1>
+              <p>We conducted research to find out what cultural factors play
+                on users' preference using Wechat</p>
+              <h2>User Research Course Project<h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!--
       <div class = "bottom roll">
         <img src = "resources/images/techStudio.jpg" alt = "tech-studio">
         <img src = "resources/images/research.jpg" alt = "research">
       </div>
+    -->
     </div>
 
+      <!--************************** related work ************************-->
     <div class = "related-work container">
       <h1>Other Works:</h1>
       <p><a href ="#" class = "related">Product Evaluation  |  Alpha Ubtech: A Wasteful Beauty</a></p>

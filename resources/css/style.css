@@ -49,7 +49,7 @@ nav ul a{
 }
 
 .navigation {
-  
+
   margin-top:0.3rem;
 }
 
@@ -109,24 +109,99 @@ p {
 .works {
   margin-top: 2rem;
 }
-.roll {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.7rem 0;
-}
-
-.roll img {
-  height: 20rem;
-}
 
 .works h1 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 1rem;
   font-weight: 400;
+}
 
+#hoverboard {
+  background-image: url("../images/hoverboard.jpg");
+}
+
+#voloffice {
+  background-image: url("../images/vol.jpg");
+}
+
+#techstudio {
+  background-image: url("../images/techStudio.jpg");
+}
+
+#research {
+  background-image: url("../images/research.jpg");
+}
+
+.roll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottom {
+  margin-top: 1rem;
+}
+
+.hover {
+  width: 49%;
+  height: 20rem;
+  background-size: cover;
+  overflow: hidden;
+  transition: all 1.2s ease-in 500ms;
+  cursor: pointer;
+}
+
+.box {
+  display: none;
+}
+
+.hover:hover .box {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 100%;
+  padding: 1.5rem;
 
 }
+
+.hover:hover #work-hoverboard {
+  background-color: rgba(234, 199, 200, 0.9);
+}
+
+.hover:hover #work-vol {
+  background-color: rgba(154, 174, 211, 0.9);
+}
+
+.hover:hover #work-ts {
+  background-color: rgba(140, 194, 192, 0.9);
+}
+
+.hover:hover #work-research {
+  background-color: rgba(251, 216, 107, 0.9);
+}
+
+.hover:hover .box h1 {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hover:hover .box p {
+  font-size:1.2rem;
+  font-weight: 400;
+}
+
+.hover:hover .box h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-top: 8.5rem;
+  font-style: italic;
+}
+
+
+
+
 
 /**************************** related ****************************/
 .related-work {
