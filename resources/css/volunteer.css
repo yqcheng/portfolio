@@ -51,6 +51,14 @@ nav ul a{
 }
 
 /**************************** content ****************************/
+
+/*****zoom cursor*****/
+img[data-action="zoom"] {
+    cursor: -webkit-zoom-in;
+  }
+/*********************/
+
+
 main {
   margin-top: 10rem;
 }
@@ -83,7 +91,7 @@ main {
 
 .text p {
   font-size: 1.3rem;
-  color: grey;
+  color: #6F6D6D;
 }
 
 .text-section {
