@@ -90,36 +90,81 @@ main {
   margin: 4rem 0;
 }
 
-.img img{
-  width: 100%;
+
+
+
+/**overview***/
+.compare-img img{
+  width: 49%;
+}
+.compare-tag {
+  display: flex;
+  justify-content: space-around;
+  font-style: italic;
+  color: grey;
 }
 
+/***evaluation***/
+.eval {
+  display: flex;
+}
 
-.rec-img img{
+.eval .eval-text{
+  width: 58%;
+  margin-left: 2rem;
+
+}
+
+.eval-text p{
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  padding: 3rem 0;
+  color: #6ac4c4;
+
+}
+
+.img img{
+  width: 100%;
+  border: 1px dotted lightgrey;
+}
+
+/***organization***/
+
+.org-img{
+  margin: 1.5rem 0;
+  width: 100%;
+  margin-bottom: 3.5rem;
+}
+
+.org-img img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+
 }
 
-.rec .improve {
-  font-style: italic;
-  font-weight: 400;
-  color: #6ac4c4;;
-}
-
-#one img{
-  width: 40%;
-  margin-top: -2rem;
-}
-
-#two img{
-  width: 55%;
-  padding: 3rem 0;
-}
-
-#three img{
+#org img{
   width: 30%;
-  padding: 3rem 0;
+}
+
+#fold img{
+  width: 70%;
+
+}
+
+#twoside img{
+  width: 70%;
+}
+
+/***aesthetics and discoverbility***/
+#pages img{
+  width: 100%;
+}
+
+/***final thoughts****/
+#final a {
+  color: #6ac4c4;
+  text-decoration: underline;
 }
 
 
