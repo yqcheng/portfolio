@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112395144-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112395144-1');
+  </script>
+
+  <title>Tech Studio Website</title>
+  <link href = "./resources/css/reset.css" type="text/css" rel="stylesheet">
+  <link href ="./resources/css/techStudio.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <link rel="shortcut icon" href="resources/images/title-logo.jpg">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
+<style type="text/css">
+    a.fancybox img {
+        border: none;
+    }
+</style>
+</head>
+
+
+<body>
+  <!---*************************** navigation ***************************--->
+  <div class = "header">
+    <div class = "container">
+      <div class = "logo">
+        <img src = "./resources/images/logo.jpg" alt="logo" class="logo">
+      </div>
+      <div class = "navigation">
+        <nav>
+          <ul>
+            <span><a href="index.html" class="nav">Works</a></span>
+            <span><a href="Resume.pdf" class="nav">Resume</a></span>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!---*************************** content ***************************--->
+  <main>
+    <div class = "container">
+      <div class = "text">
+        <h1> COSI: Tech Studio Website </h1>
+        <p id = "star">*Internship Project </p>
+
+        <!---************* overview *************--->
+        <div class = "text-section">
+          <h2>Overview</h2>
+          <p>As a Web Development Intern in COSI, I developed the Tech Studio
+            department's website. Just like the Volunteer & Community's old
+            website, the Tech Studio site was stacked with plain text.</p>
+          </br>
+          <p>My focus on this development was to improve the content
+              architecture, aesthetics, hierarchy, and discoverability, as
+              well as to reduce the signal-to-noise ratio. </p>
+        </div>
+        <div class = "compare-img">
+          <img src = "resources/images/ts-overview.png" alt ="web view"  data-action = "zoom" id = "web">
+          <img src = "resources/images/ts-phonePNG.png" alt ="phone view"  data-action = "zoom" id = "phone">
+        </div>
+
+        <!---************* my role *************--->
+        <div class = "text-section">
+          <h2>My Role</h2>
+          <p>Prototype, front-end development, usability testing, Joomla
+            (Content Management System)</p>
+        </div>
+
+        <!---************* Ideation & Prototype *************--->
+        <div class = "text-section margin-bottom">
+          <h2>Ideation & Prototype</h2>
+          <p>I started with organizing the content and divided it to different
+            categories. Since the topics throughout the site were very
+            distinctive: introduction, offers, workshops, and program
+            reservation, but they were not displayed in a visible way. The
+            first idea came to mind was to separate them by color bands, and
+            adopt modularity in each section to improve the content
+            discoverability. Below are my first wireframe and first mockup:</p>
+        </div>
+        <div class = "proto margin-bottom">
+          <div class = "img">
+            <img src = "resources/images/ts-sketch.jpg" alt = "sketch" data-action = "zoom" id = "sketch">
+            <img src = "resources/images/ts-oldprototype.png" alt = "first prototype" data-action = "zoom" id = "firstpro">
+          </div>
+        </div>
+
+        <div class = "color margin-bottom">
+          <p>The head of Tech Studio requested to use the color scheme in
+            their advertisement booklet. After several rounds of refinements,
+            I replaced the incompatible brown color with a more visually
+            pleasant background while using a specific color as requested,
+            and increased the discoverability of some important information
+            such as the hours of Tech Studio.</p>
+        </div>
+        <div class = "req-img margin-bottom" id = "color">
+          <img src = "resources/images/ts-color.png" alt = "color" data-action = "zoom">
+        </div>
+
+        <div class = "bio margin-bottom">
+          <p>To increase the reliability of the program, we decided to used
+            authority endorsement by adding bios of the team members.</p>
+        </div>
+        <div class = "req-img margin-bottom" id = "bio">
+          <img src = "resources/images/ts-bio.png" alt = "two sides" data-action = "zoom">
+        </div>
+
+
+        <!---************* Challenges *************--->
+        <div class = "text-section">
+          <h2> Challenges </h2>
+          <div class = "chal margin-bottom">
+            <p>In the old site, "Adult Volunteer" and "Youth Volunteer" were
+              mixed in the same page, but they have different processes of
+              application and different positions. Therefore, the best way is
+              to separate these two programs. </p>
+          </div>
+          <div class = "rec-img" id = "challenge">
+            <img src = "resources/images/ts-challenge.png" alt = "recat" data-action = "zoom">
+          </div>
+
+
+
+        </div>
+
+
+
+        <!---************* final thought *************--->
+        <div class = "text-section" id ="final">
+          <h2>Final Thoughts</h2>
+          <p> It felt good to develop and deploy my first website in such an
+            important organization! I am genuinely glad to contribute to a
+            program that dedicates itself to children's education. An important
+            lesson I have learned in an organizational setting is that designs
+            always have tradeoffs and as a designer I must balance the needs of
+            different clients - and those needs are not always compatible.</p>
+        </div>
+
+
+    </div>
+  </main>
+
+
+  <!---*************************** footer ***************************--->
+  <div class ="footer container">
+    <p>copyright &copy 2018 Qicheng Yang</p>
+  </div>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
+<script type="text/javascript">
+    $(function($){
+        var addToAll = true;
+        var gallery = true;
+        var titlePosition = 'inside';
+        $(addToAll ? 'img' : 'img.fancybox').each(function(){
+            var $this = $(this);
+            var title = $this.attr('title');
+            var src = $this.attr('data-big') || $this.attr('src');
+            var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
+            $this.wrap(a);
+        });
+        if (gallery)
+            $('a.fancybox').attr('rel', 'fancyboxgallery');
+        $('a.fancybox').fancybox({
+            titlePosition: titlePosition
+        });
+    });
+    $.noConflict();
+</script>
+</body>

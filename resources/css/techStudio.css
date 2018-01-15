@@ -1,0 +1,160 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #787878;
+  font-family: 'open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+
+.container {
+  width: 1100px;
+
+}
+/**************************** header ****************************/
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: MediumAquamarine;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  padding: 10px 30px;
+  position: fixed;
+  z-index: 5;
+}
+
+.header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 2rem;
+}
+
+nav ul a{
+  margin: 0 1.5rem;
+  font-size: 1.4rem;
+  color: grey;
+}
+
+.navigation {
+
+  margin-top:0.3rem;
+}
+
+/**************************** content ****************************/
+
+/*****zoom cursor*****/
+img[data-action="zoom"] {
+    cursor: -webkit-zoom-in;
+  }
+/*********************/
+
+
+main {
+  margin-top: 10rem;
+}
+
+.text {
+  width: 75%;
+}
+
+.text h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: black;
+
+}
+
+#star {
+  margin-top: -1.6rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.text h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.text p {
+  font-size: 1.3rem;
+  color: #6F6D6D;
+}
+
+.text-section {
+  margin: 4rem 0;
+}
+
+
+
+
+/**overview***/
+
+#web{
+  width:80%;
+}
+
+#phone  {
+  width:20%;
+  margin-left: -2rem;
+}
+
+
+/***Ideation & Prototype***/
+.margin-bottom{
+  margin-bottom: 3rem;
+}
+
+#sketch {
+  width: 57.4%;
+}
+
+#firstpro {
+  width: 40%;
+}
+
+#color img {
+  width:100%;
+}
+
+#bio img {
+  width: 100%;
+}
+
+/***challenges***/
+#challenge img{
+  width: 100%;
+}
+
+/***final thoughts****/
+#final a {
+  color: #6ac4c4;
+  text-decoration: underline;
+}
+
+
+/**************************** footer ****************************/
+.footer {
+  height: 7rem;
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid lightgrey;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  color: grey;
+}
