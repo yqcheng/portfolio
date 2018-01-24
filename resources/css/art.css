@@ -46,10 +46,12 @@ nav ul a{
 }
 
 .navigation {
-
   margin-top:0.3rem;
 }
 
+.navigation span:hover {
+  text-decoration: underline;
+}
 /**************************** video ****************************/
 main {
   margin-top: 10rem;

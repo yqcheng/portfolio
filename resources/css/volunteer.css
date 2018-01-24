@@ -46,8 +46,11 @@ nav ul a{
 }
 
 .navigation {
-
   margin-top:0.3rem;
+}
+
+.navigation span:hover {
+  text-decoration: underline;
 }
 
 /**************************** content ****************************/
@@ -127,13 +130,17 @@ main {
   font-size: 0.9rem;
   line-height: 1.2rem;
   padding: 3rem 0;
-  color: #6ac4c4;
+  color: red;
 
 }
 
 .img img{
   width: 100%;
-  border: 1px dotted #6ac4c4;
+
+}
+
+.img {
+  border: 3px solid #6ac4c4;
 }
 
 /***organization***/
@@ -148,7 +155,6 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 #org img{
@@ -157,8 +163,8 @@ main {
 
 #fold img{
   width: 70%;
-
 }
+
 
 #twoside img{
   width: 70%;
