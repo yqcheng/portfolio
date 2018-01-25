@@ -173,6 +173,78 @@ p.improve {
   text-decoration: underline;
 }
 
+/*************************** see others *************************/
+.see-others {
+  margin-top: 10rem;
+}
+
+.see-others .container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+#hoverboard {
+  background-image: url("../images/hoverboard.jpg");
+}
+
+#voloffice {
+  background-image: url("../images/vol.jpg");
+}
+
+#techstudio {
+  background-image: url("../images/techStudio.jpg");
+}
+
+
+.hover {
+  width: 30%;
+  height: 12rem;
+  background-size: cover;
+  overflow: hidden;
+  transition: all 1.2s ease-in 500ms;
+  cursor: pointer;
+}
+
+
+.box {
+  display: none;
+}
+
+.hover:hover .box {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 100%;
+  padding: 1.5rem;
+
+}
+
+.hover:hover #work-hoverboard {
+  background-color: rgba(234, 199, 200, 0.9);
+}
+
+.hover:hover #work-vol {
+  background-color: rgba(154, 174, 211, 0.9);
+}
+
+.hover:hover #work-ts {
+  background-color: rgba(140, 194, 192, 0.9);
+}
+
+.hover:hover .box h1 {
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.hover:hover .box p {
+  font-size:1rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
 
 
 

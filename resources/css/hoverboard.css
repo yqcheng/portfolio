@@ -76,6 +76,10 @@ main {
   font-style: italic;
 }
 
+#hvgif {
+  margin: 1rem 0 0 11rem;
+}
+
 .text h2 {
   font-size: 2.4rem;
   font-weight: 400;
@@ -122,6 +126,80 @@ main {
 #three img{
   width: 30%;
   padding: 3rem 0;
+}
+
+
+
+/*************************** see others *************************/
+.see-others {
+  margin-top: 10rem;
+}
+
+.see-others .container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+#voloffice {
+  background-image: url("../images/vol.jpg");
+}
+
+#techstudio {
+  background-image: url("../images/techStudio.jpg");
+}
+
+#research {
+  background-image: url("../images/research.jpg");
+}
+
+
+.hover {
+  width: 30%;
+  height: 12rem;
+  background-size: cover;
+  overflow: hidden;
+  transition: all 1.2s ease-in 500ms;
+  cursor: pointer;
+}
+
+
+.box {
+  display: none;
+}
+
+.hover:hover .box {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 100%;
+  padding: 1.5rem;
+
+}
+
+.hover:hover #work-vol {
+  background-color: rgba(154, 174, 211, 0.9);
+}
+
+.hover:hover #work-ts {
+  background-color: rgba(140, 194, 192, 0.9);
+}
+
+.hover:hover #work-research {
+  background-color: rgba(251, 216, 107, 0.9);
+}
+
+.hover:hover .box h1 {
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.hover:hover .box p {
+  font-size:1rem;
+  font-weight: 400;
+  line-height: 1.4rem;
 }
 
 
